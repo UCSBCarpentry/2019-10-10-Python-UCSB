@@ -14,8 +14,8 @@ enddate: 2019-10-18        # machine-readable end date for the workshop in YYYY-
 instructor: ["Greg Janée", "Yuan Wu", "Ian Lessing", "Sanjeev Kolli"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Kristi Lu", "Jon Jablonski", "Sharon Solis"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["library-collaboratory@ucsb.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+collaborative_notes: https://pad.carpentries.org/2019-10-10-Python-UCSB            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+eventbrite: 71118175377          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
