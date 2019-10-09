@@ -92,6 +92,21 @@ default web browser after starting the JupyterLab server on wither Mac OS X or W
   <img alt="JupyterLab landing page" src="../fig/0_jupyterlab_landing_page.png" width="750"/>
 </p>
 
+## Closing JupyterLab
+
+*   From the Menu Bar select the "File" menu and the choose "Quit" at the bottom of the dropdown menu. You will be prompted to confirm that you wish to shutdown the JupyterLab server (don't forget to save your work!). Click "Confirm" to shutdown the JupyterLab server.
+*   To restart the JupyterLab server you will need to re-run the following command from a shell.
+
+~~~
+$ jupyter lab
+~~~
+
+> ## Closing JupyerLab
+>
+> Practice closing and restarting the JupyterLab server.
+> 
+{: .challenge}
+
 ## The JupyterLab Interface
 
 JupyterLab has many features found in traditional integrated development environments (IDEs) but 
@@ -269,6 +284,14 @@ more details, then see the [official notebook documentation][jupyterlab-notebook
 *   Pressing <kbd>Shift</kbd>+<kbd>Return</kbd> together will execute the contents of the cell.
 *   Notice that the <kbd>Return</kbd> and <kbd>Shift</kbd> keys on the right of the keyboard are 
     right next to each other.
+
+
+
+
+
+
+
+
 
 ### The Notebook will turn Markdown into pretty-printed documentation.
 
@@ -500,23 +523,9 @@ Or use [named links][data_carpentry].
 > {: .solution}
 {: .challenge}
 
-## Closing JupyterLab
-
-*   From the Menu Bar select the "File" menu and the choose "Quit" at the bottom of the dropdown menu. You will be prompted to confirm that you wish to shutdown the JupyterLab server (don't forget to save your work!). Click "Confirm" to shutdown the JupyterLab server.
-*   To restart the JupyterLab server you will need to re-run the following command from a shell.
-
-~~~
-$ jupyter lab
-~~~
-
-> ## Closing JupyerLab
->
-> Practice closing and restarting the JupyterLab server.
-> 
-{: .challenge}
 [anaconda]: https://docs.continuum.io/anaconda/install
 [jupyterlab-ui]: https://jupyterlab.readthedocs.io/en/stable/user/interface.html
 [jupyterlab-notebook-docs]: https://jupyterlab.readthedocs.io/en/stable/user/notebook.html
 [markdown]: https://en.wikipedia.org/wiki/Markdown
-
+[jupyterlab]: https://jupyterlab.readthedocs.io/en/stable/
 {% include links.md %}
