@@ -167,6 +167,28 @@ sod
 ~~~
 {: .output}
 
+
+> ## Slicing practice
+>
+> What does the following program print?
+>
+> ~~~
+> atom_name = 'carbon'
+> print('atom_name[1:3] is:', atom_name[1:3])
+> ~~~
+> {: .language-python}
+>
+> > ## Solution
+> >
+> > ~~~
+> > atom_name[1:3] is: ar
+> > ~~~
+> > {: .output}
+> {: .solution}
+{: .challenge}
+
+
+
 ## Use the built-in function `len` to find the length of a string.
 
 ~~~
@@ -178,8 +200,7 @@ print(len('helium'))
 ~~~
 {: .output}
 
-*   Nested functions are evaluated from the inside out,
-     like in mathematics.
+*   Nested functions are evaluated from the inside out, like in mathematics.
 
 ## Python is case-sensitive.
 
@@ -260,39 +281,6 @@ print(ewr_422_yY, 'is', flabadab, 'years old')
 >{: .solution}
 {: .challenge}
 
-> ## Challenge
->
-> If you assign `a = 123`,
-> what happens if you try to get the second digit of `a` via `a[1]`?
->
-> > ## Solution
-> > Numbers are not strings or sequences and Python will raise an error if you try to perform an index operation on a
-> > number. In the [next lesson on types and type conversion]({{ page.root }}/03-types-conversion/#convert-numbers-and-strings)
-> > we will learn more about types and how to convert between different types. If you want the Nth digit of a number you
-> > can convert it into a string using the `str` built-in function and then perform an index operation on that string.
-> >
-> > ~~~
-> > a = 123
-> > print(a[1])
-> > ~~~
-> > {: .language-python}
-> > ~~~
-> > TypeError: 'int' object is not subscriptable
-> > ~~~
-> > {: .error}
-> > 
-> > 
-> > ~~~
-> > a = str(123)
-> > print(a[1])
-> > ~~~
-> > {: .language-python}
-> > ~~~
-> > 1
-> > ~~~
-> > {: .output}
-> {: .solution}
-{: .challenge}
 
 > ## Choosing a Name
 >
@@ -312,24 +300,7 @@ print(ewr_422_yY, 'is', flabadab, 'years old')
 > {: .solution}
 {: .challenge}
 
-> ## Slicing practice
->
-> What does the following program print?
->
-> ~~~
-> atom_name = 'carbon'
-> print('atom_name[1:3] is:', atom_name[1:3])
-> ~~~
-> {: .language-python}
->
-> > ## Solution
-> >
-> > ~~~
-> > atom_name[1:3] is: ar
-> > ~~~
-> > {: .output}
-> {: .solution}
-{: .challenge}
+
 
 > ## Slicing concepts
 >
