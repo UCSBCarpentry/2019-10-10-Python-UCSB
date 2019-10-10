@@ -101,7 +101,7 @@ default web browser after starting the JupyterLab server on wither Mac OS X or W
 $ jupyter lab
 ~~~
 
-> ## Closing JupyerLab
+> ## Closing JupyterLab
 >
 > Practice closing and restarting the JupyterLab server.
 > 
