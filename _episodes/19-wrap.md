@@ -28,6 +28,11 @@ turn out to be anything but when we have to explain them precisely.
 
 *   [Jupyter](https://jupyter.org) is the home of Project Jupyter.
 
+**  Notebooks can be [published and distributed](https://github.com/Azure/MachineLearningNotebooks). 
+    ex: Microsoft Azure cookbooks and how-to's. Very similar to the environment that Sharon described.
+
+**  Notebooks can be collaboratorive.
+
 *   [Pandas](https://pandas.pydata.org) is the home of the Pandas data library.
 
 *   Stack Overflow's [general Python section](http://stackoverflow.com/questions/tagged/python)
