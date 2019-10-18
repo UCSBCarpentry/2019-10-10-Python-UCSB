@@ -90,7 +90,7 @@ for m in masses:
 masses = [3.54, 2.07, 9.22, 1.86, 1.71]
 for m in masses:
     if m > 9.0:
-        print(m, 'is HUGE')
+        print(m, 'is very large')
     elif m > 3.0:
         print(m, 'is large')
     else:
@@ -100,7 +100,7 @@ for m in masses:
 ~~~
 3.54 is large
 2.07 is small
-9.22 is HUGE
+9.22 is very large
 1.86 is small
 1.71 is small
 ~~~
