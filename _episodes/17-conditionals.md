@@ -127,21 +127,6 @@ grade is C
 {: .output}
 
 *   Does *not* automatically go back and re-evaluate if values change.
-
-~~~
-velocity = 10.0
-if velocity > 20.0:
-    print('moving too fast')
-else:
-    print('adjusting velocity')
-    velocity = 50.0
-~~~
-{: .language-python}
-~~~
-adjusting velocity
-~~~
-{: .output}
-
 *   Often use conditionals in a loop to "evolve" the values of variables.
 
 ~~~
@@ -172,43 +157,12 @@ final velocity: 30.0
 ~~~
 {: .output}
 
-## Create a table showing variables' values to trace a program's execution.
-
-<table>
-  <tr>
-    <td><strong>i</strong></td>
-    <td>0</td>
-    <td>.</td>
-    <td>1</td>
-    <td>.</td>
-    <td>2</td>
-    <td>.</td>
-    <td>3</td>
-    <td>.</td>
-    <td>4</td>
-    <td>.</td>
-  </tr>
-  <tr>
-    <td><strong>velocity</strong></td>
-    <td>10.0</td>
-    <td>20.0</td>
-    <td>.</td>
-    <td>30.0</td>
-    <td>.</td>
-    <td>25.0</td>
-    <td>.</td>
-    <td>20.0</td>
-    <td>.</td>
-    <td>30.0</td>
-  </tr>
-</table>
-
 *   The program must have a `print` statement *outside* the body of the loop
     to show the final value of `velocity`,
     since its value is updated by the last iteration of the loop.
 
-> ## Compound Relations Using `and`, `or`, and Parentheses
->
+## Compound Relations Using `and`, `or`, and Parentheses
+
 > Often, you want some combination of things to be true.  You can combine
 > relations within a conditional using `and` and `or`.  Continuing the example
 > above, suppose you have
@@ -338,42 +292,6 @@ final velocity: 30.0
 > {: .solution}
 {: .challenge}
 
-> ## Initializing
->
-> Modify this program so that it finds the largest and smallest values in the list
-> no matter what the range of values originally is.
->
-> ~~~
-> values = [...some test data...]
-> smallest, largest = None, None
-> for v in values:
->     if ____:
->         smallest, largest = v, v
->     ____:
->         smallest = min(____, v)
->         largest = max(____, v)
-> print(smallest, largest)
-> ~~~
-> {: .language-python}
->
-> What are the advantages and disadvantages of using this method
-> to find the range of the data?
-> > ## Solution
-> >
-> > ~~~
-> > values = [-2,1,65,78,-54,-24,100]
-> > smallest, largest = None, None
-> > for v in values:
-> >     if smallest==None and largest==None:
-> >         smallest, largest = v, v
-> >     else:
-> >         smallest = min(smallest, v)
-> >         largest = max(largest, v)
-> > print(smallest, largest)
-> > ~~~
-> > {: .language-python}
-> {: .solution}
-{: .challenge}
 
 > ## Using Functions With Conditionals in Pandas
 >
